@@ -20,9 +20,16 @@ const styles = StyleSheet.create({
 		fontWeight: "700",
 	},
 	SubTitle: {
-		fontSize: 18,
+		fontSize: 20,
 		color: "gray",
-		textTransform: "uppercase",
+	},
+	ButtonContainer: {
+		position: "absolute",
+		bottom: 50,
+		width: "100%",
+	},
+	SpecialTag: {
+		textDecorationLine: "underline",
 	},
 });
 export default styles;

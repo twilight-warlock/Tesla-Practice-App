@@ -9,7 +9,8 @@ export default function App() {
 			<CarImage
 				ImageName={require("./assets/images/ModelS.jpeg")}
 				CarName={"Model S"}
-				Price={"69,420"}
+				Tagline={"Order Online for"}
+				SpecialTag={"Touchless Delivery"}
 			/>
 			<StatusBar style="auto" />
 		</View>
