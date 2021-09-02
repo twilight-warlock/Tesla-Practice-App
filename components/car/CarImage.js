@@ -3,9 +3,9 @@ import { Text, View, Image } from "react-native";
 import styles from "./Styles.js";
 import Button from "../Buttons/Button.js";
 
-const CarImage = ({ ImageName, CarName, Tagline, SpecialTag }) => {
+const CarImage = ({ car: { ImageName, CarName, Tagline, SpecialTag } }) => {
 	return (
-		<View style={styles.CarContainer}>
+		<View style={styles.CarContainer} key={CarName}>
 			<Image source={ImageName} style={styles.Image} />
 			<View style={styles.Titles}>
 				<Text style={styles.Headline}>{CarName}</Text>
